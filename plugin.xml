@@ -13,6 +13,7 @@
 	<hook type="after_run" src="scripts/CloseLog.js" />
     <hook src="scripts/Outsystems/npmInstall.js" type="before_plugin_install"/>
     <hook src="scripts/Outsystems/copyConfig.js" type="before_prepare"/>
+    <hook src="scripts/Outsystems/runDoctorDynatrace.js" type="after_run"/>
 
     <js-module src="networking/NativeNetworkInterceptorUtils.js" name="native-network-interceptor-utils" />
     <js-module src="networking/MobileFirstNetworkInterceptor.js" name="mobile-first-network-interceptor" />
