@@ -1,0 +1,1 @@
+# dynatrace-cordova-plugin-logs
